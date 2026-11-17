@@ -1,0 +1,1 @@
+Run ./scripts/start.sh to start services and show live status. Run ./scripts/status.sh at any time. In iTerm2 Cmd+click the URLs. Existing scripts/config.env and .env files are not overwritten. If you already have scripts/config.env, update STOREFRONT_START_COMMAND to: npx --no-install next dev -p 9900.\n

@@ -1,0 +1,55 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm.
+npm warn Unknown user config "python". This will stop working in the next major version of npm.
+
+> @dtc/backend@0.0.1 dev
+> medusa develop
+
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    Linting project...
+[32minfo[39m:    [Watcher] Using standard dev server (restart on file change)
+[32minfo[39m:    [Watcher] Watching filesystem to reload dev server on file change
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+- Creating server
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    Skipping instrumentation registration. No register function found.
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    No link to load from /Users/ccastro/Projects/medusa-learning/node_modules/@medusajs/draft-order/.medusa/server/src/links. skipped.
+[33mwarn[39m:    Local Event Bus installed. This is not recommended for production.
+[32minfo[39m:    Locking module: Using "in-memory" as default.
+[32minfo[39m:    No workflow to load from /Users/ccastro/Projects/medusa-learning/node_modules/@medusajs/draft-order/.medusa/server/src/workflows. skipped.
+[32minfo[39m:    No subscriber to load from /Users/ccastro/Projects/medusa-learning/node_modules/@medusajs/draft-order/.medusa/server/src/subscribers. skipped.
+[32minfo[39m:    No job to load from /Users/ccastro/Projects/medusa-learning/node_modules/@medusajs/draft-order/.medusa/server/src/jobs. skipped.
+[32minfo[39m:    No job to load from /Users/ccastro/Projects/medusa-learning/node_modules/@medusajs/medusa/dist/jobs. skipped.
+[32m✔[39m Server is ready on port: 8218 – 1436ms
+[32minfo[39m:    Admin URL → http://localhost:8218/app
+[32mhttp[39m:    GET /store/regions ← - (200) - 13.168 ms
+[32mhttp[39m:    GET /store/locales ← - (404) - 4.039 ms
+[32mhttp[39m:    GET /store/collections?fields=id%2Chandle%2Ctitle&limit=100&offset=0 ← - (200) - 5.186 ms
+[32mhttp[39m:    GET /app ← - (200) - 9.799 ms
+[32mhttp[39m:    GET /store/locales ← - (404) - 2.986 ms
+[32mhttp[39m:    OPTIONS /store/search ← - (204) - 0.235 ms
+[32mhttp[39m:    GET /store/locales ← - (404) - 3.180 ms
+[32mhttp[39m:    OPTIONS /store/search ← http://localhost:9900/ (204) - 0.919 ms
+[32mhttp[39m:    POST /store/search ← http://localhost:9900/ (200) - 25.779 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&handle=demo-8-socks ← - (200) - 68.552 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&collection_id%5B0%5D=pcol_01M6S1RMG751HF10J00MGNVAJZ&tag_id%5B0%5D=ptag_01M6S1RMGFEPNZFTCZ80E12M3F&tag_id%5B1%5D=ptag_01M6S1RMGFRGHB44WNF6AQS7EH&is_giftcard=false ← - (200) - 44.028 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&collection_id%5B0%5D=pcol_01M6S1RMG751HF10J00MGNVAJZ&tag_id%5B0%5D=ptag_01M6S1RMGFEPNZFTCZ80E12M3F&tag_id%5B1%5D=ptag_01M6S1RMGFRGHB44WNF6AQS7EH&is_giftcard=false ← - (200) - 31.737 ms
+[32mhttp[39m:    OPTIONS /store/search ← http://localhost:9900/ (204) - 0.377 ms
+[32mhttp[39m:    POST /store/search ← http://localhost:9900/ (200) - 11.216 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&handle=demo-5-joggers ← - (200) - 56.647 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&collection_id%5B0%5D=pcol_01M6S1RMG788NJJ86RMGQEH61W&tag_id%5B0%5D=ptag_01M6S1RMGFT6EWNGXGSMWZBJ22&tag_id%5B1%5D=ptag_01M6S1RMGFRGHB44WNF6AQS7EH&tag_id%5B2%5D=ptag_01M6S1RMGFEPNZFTCZ80E12M3F&is_giftcard=false ← - (200) - 64.095 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&collection_id%5B0%5D=pcol_01M6S1RMG788NJJ86RMGQEH61W&tag_id%5B0%5D=ptag_01M6S1RMGFT6EWNGXGSMWZBJ22&tag_id%5B1%5D=ptag_01M6S1RMGFRGHB44WNF6AQS7EH&tag_id%5B2%5D=ptag_01M6S1RMGFEPNZFTCZ80E12M3F&is_giftcard=false ← - (200) - 65.207 ms
+[32mhttp[39m:    GET /store/locales ← - (404) - 2.316 ms
+[32mhttp[39m:    OPTIONS /store/search ← http://localhost:9900/ (204) - 0.180 ms
+[32mhttp[39m:    POST /store/search ← http://localhost:9900/ (200) - 8.698 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&handle=t-shirt ← - (200) - 51.105 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&is_giftcard=false ← - (200) - 69.912 ms
+[32mhttp[39m:    GET /store/products?limit=12&offset=0&region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q&fields=%2Avariants.calculated_price%2C%2Bvariants.inventory_quantity%2C%2Avariants.images%2C%2Avariants.options%2C%2Bmetadata%2C%2Btags%2C&is_giftcard=false ← - (200) - 63.293 ms
+[32mhttp[39m:    POST /store/carts ← - (200) - 96.555 ms
+[32mhttp[39m:    POST /store/carts/cart_01M6S2SFKTH0H1EWMHF0Q2436J/line-items ← - (200) - 89.266 ms
+[32mhttp[39m:    GET /store/locales ← - (404) - 3.775 ms
+[32mhttp[39m:    GET /store/carts/cart_01M6S2SFKTH0H1EWMHF0Q2436J?fields=%2Aitems%2C%20%2Aregion%2C%20%2Aitems.product%2C%20%2Aitems.variant%2C%20%2Aitems.thumbnail%2C%20%2Aitems.metadata%2C%20%2Bitems.total%2C%20%2Apromotions%2C%20%2Bshipping_methods.name ← - (200) - 13.386 ms
+[32mhttp[39m:    GET /store/shipping-options?cart_id=cart_01M6S2SFKTH0H1EWMHF0Q2436J ← - (200) - 54.175 ms
+[32mhttp[39m:    GET /store/payment-providers?region_id=reg_01M6S0KD0PNHYGY8PASKMZPH8Q ← - (200) - 5.930 ms
+./scripts/start.sh: line 17: 18406 Terminated: 15          PORT="$BACKEND_PORT" bash -lc "${BACKEND_START_COMMAND:-npm run dev}"
+[32minfo[39m:    Gracefully shutting down server
